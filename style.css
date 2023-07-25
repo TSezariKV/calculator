@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #111;
+    height: 1200px;
+}
+.container{
+    background: #22252D;
+    width: 350px;
+    height: 700px;
+    display: block;
+    position: relative;
+    left: 37%;
+    top: 1rem;
+    border-radius: 30px;
+}
+.buttons{
+    background: #292D36;
+    position: absolute;
+    bottom: 0;
+    height: 420px;
+    border-radius: 30px;
+}
+.btn{
+    background: #272B33;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 22px;
+    width: 60px;
+    margin: 7.5px;
+    position: relative;
+    left: 20px;
+    top: 12.5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-red{
+    color: #E27374!important;
+}
+.btn-blue{
+    color: #26DCBC!important;
+}
+input{
+    background: transparent;
+    width: 98%;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    border: none;
+    color: #fff;
+    font-size: 45px;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+}
+.theme{
+    background: #292D36;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.btn-theme{
+    background: transparent;
+    font-size: 21px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    color: grey;
+    transition: all .2s;
+}
+.active{
+    color: rgb(185, 185, 185);
+}
+.container.light{
+    background: #fff;
+    color: #000;
+    transition: .2s;
+}
+.buttons.light{
+    background: #F9F9F9;
+    color: #000;
+    transition: .2s;
+}
+.light{
+    background: #F7F7F7;
+    color: #000;
+    transition: .2s;
+}
+.previous-value{
+    color: #fff;
+    position: relative;
+    left: -10px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 35px;
+    text-align: right;
+}

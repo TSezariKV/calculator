@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9637dfc56c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="theme">
+            <button class="btn-theme light-btn fa fa-sun"></button>
+            <button class="btn-theme dark-btn fa fa-moon"></button>
+        </div>
+        <p class="previous-value"></p>
+        <input type="text" class="screen">
+        <div class="buttons">
+            <button class="btn btn-blue clear-btn">AC</button>
+            <button class="btn btn-blue" data-num="%">%</button>
+            <button class="btn btn-blue" data-num="%">%</button>
+
+            <button class="btn btn-red fa fa-divide divide-btn" data-num="/"></button>
+            <button class="btn btn-num" data-num="7">7</button>
+            <button class="btn btn-num" data-num="8">8</button>
+            <button class="btn btn-num" data-num="9">9</button>
+            <button class="btn btn-red fa fa-xmark multiply-btn" data-num="*"></button>
+            <button class="btn btn-num" data-num="4">4</button>
+            <button class="btn btn-num" data-num="5">5</button>
+            <button class="btn btn-num" data-num="6">6</button>
+            <button class="btn btn-red" data-num="-">-</button>
+            <button class="btn btn-num" data-num="1">1</button>
+            <button class="btn btn-num" data-num="2">2</button>
+            <button class="btn btn-num" data-num="3">3</button>
+            <button class="btn btn-red" data-num="+">+</button>
+            <button class="btn btn-num fa fa-arrow-rotate-left delete-btn" data-num=""></button>
+            <button class="btn btn-num" data-num="0">0</button>
+            <button class="btn btn-num" data-num=".">.</button>
+            <button class="btn btn-red equal-btn" data-num="">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
